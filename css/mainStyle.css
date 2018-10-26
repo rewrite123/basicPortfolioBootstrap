@@ -1,4 +1,12 @@
-
+html{
+	background-color: rgb(158, 168, 168);
+}
+body{
+	background-color: rgb(158, 168, 168);
+}
+hr{
+	border-bottom: 5px solid rgb(0, 45, 112);
+}
 .myProfilePic{
 	width: 100%;
 	height: 100%
@@ -6,4 +14,26 @@
 .myArticleHeader{
 	color: rgb(31, 31, 41);
 	font-size: 28px;
+}
+.contentArticle{
+	text-indent: 7%;
+}
+.nameplate{
+	font-size: 28px;
+}
+.myCardContainer{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.row{
+	background-color: rgb(188, 198, 198);
+}
+.container{
+	background-color: rgb(188, 198, 198);
+}
+.card{
+	margin-top: 4px;
+	margin-bottom: 4px;
 }

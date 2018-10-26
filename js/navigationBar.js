@@ -24,9 +24,9 @@ function showElement(x){
 /* This makes it so that when you are on smaller displays the navbar moves you to the content you requested. */
 window.onresize = function(event) {
 	if(window.innerWidth < 850){
-		document.getElementById("aboutSelector").href = "#about";
-		document.getElementById("portfolioSelector").href = "#portfolio";
-		document.getElementById("contactSelector").href = "#contact";
+		document.getElementById("aboutSelector").href = "#fack";
+		document.getElementById("portfolioSelector").href = "#fack";
+		document.getElementById("contactSelector").href = "#fack";
 	}else{
 		document.getElementById("aboutSelector").href= "#";
 		document.getElementById("portfolioSelector").href = "#";
@@ -34,11 +34,14 @@ window.onresize = function(event) {
 	}
 };
 if(window.innerWidth < 850){
-	document.getElementById("aboutSelector").href = "#about";
-	document.getElementById("portfolioSelector").href = "#portfolio";
-	document.getElementById("contactSelector").href = "#contact";
+	document.getElementById("aboutSelector").href = "#fack";
+	document.getElementById("portfolioSelector").href = "#fack";
+	document.getElementById("contactSelector").href = "#fack";
 }else{
 	document.getElementById("aboutSelector").href= "#";
 	document.getElementById("portfolioSelector").href = "#";
 	document.getElementById("contactSelector").href = "#";
 }
+
+/* Because I'm too lazy to do the CSS. */
+showElement(0);
